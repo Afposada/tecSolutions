@@ -313,7 +313,9 @@ nav.pie {
     vertical-align: top;
     padding: 12px;
     flex: 0 0 220px;
-    max-width: 250px;
+    max-height: 20px;
+    min-height: 600px;
+    max-width: 20px;
     min-width: 250px;
     background: #0d1333;
     margin: 0 8px 8px 0;
