@@ -409,7 +409,7 @@ body {
 /* Sidebar (Menú Lateral) */
 .sidebar {
     width: 250px;
-    background-color: var(--dark-blue);
+    background-color: linear-gradient(90deg, #263159 80%, #0d1333 100%);;
     color: var(--white-color);
     padding: 2rem 1rem;
     box-shadow: var(--shadow);
@@ -456,7 +456,7 @@ body {
 }
 
 .main-header h2 {
-    color: var(--dark-blue);
+    color: #fff;
 }
 
 .services-crud {
@@ -541,4 +541,14 @@ body {
 
 .delete-btn:hover {
     color: #c82333;
+}
+.login-container {
+    background: var(--blanco);
+    padding: 3rem 2.5rem;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeInUp 0.8s ease forwards;
 }
